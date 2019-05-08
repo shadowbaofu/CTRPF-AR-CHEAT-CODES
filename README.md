@@ -2,13 +2,11 @@
 
 # Notice
 
-<b>I hate to do this, but between this repository, me dealing with [sharkive](https://github.com/FlagBrew/Sharkive) stuff, work*, and just about a ton of other things IRL I am sadly thinking I am going to have to drop this repository (put it into archive mode basically) as I barely have time to do much work anymore on really anything. 
+So I'm semi-officially assuming command of this repo. I dont plan to do much different than JO ddi previously, but I am versed a bit more in how codes work when it comes to reported codes - though I'll likely still be just shy of useless on games I don't have. JO still be helping/working on Sharkive. I'm expecting that the two repos might drift a part more, especially considering CTRPF has additional codetypes that Sharkive doesnt support, but feel free to submit any of your more 'generic' codes to Sharkive as well (link below).
 
-*main reason is I have a very hectic schedule right now and for the foreseeable future so it makes things a lot harder.
+~ iShar
 
-I will still be around for flagbrew/sharkive (and the eventual merge of getting sharkive implemented into checkpoint) so I'm not going to be completely gone, but I just won't be working on this repository anymore.</b>
-
-<b>If you have gateshark codes please help contribute to [Sharkive](https://github.com/FlagBrew/Sharkive)</b>
+<b>[Here's the Sharkive for those wanting to contribute there, too](https://github.com/FlagBrew/Sharkive)</b>
 
 ## How to use
 
