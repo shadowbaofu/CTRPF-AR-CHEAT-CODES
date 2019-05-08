@@ -2,7 +2,7 @@
 
 # Notice
 
-So I'm semi-officially assuming command of this repo. I dont plan to do much different than JO ddi previously, but I am versed a bit more in how codes work when it comes to reported codes - though I'll likely still be just shy of useless on games I don't have. JO still be helping/working on Sharkive. I'm expecting that the two repos might drift a part more, especially considering CTRPF has additional codetypes that Sharkive doesnt support, but feel free to submit any of your more 'generic' codes to Sharkive as well (link below).
+So I'm semi-officially assuming command of this repo. I dont plan to do much different than JO did previously, but I am versed a bit more in how codes work when it comes to reported codes - though I'll likely still be just shy of useless on games I don't have. JO still be helping/working on Sharkive. I'm expecting that the two repos might drift a part more, especially considering CTRPF has additional codetypes that Sharkive doesnt support, but feel free to submit any of your more 'generic' codes to Sharkive as well (link below).
 
 ~ iShar
 
