@@ -205,7 +205,7 @@ D0000000 00000000
 DC000000 00000510
 D1000000 00000000
 D2000000 00000000
-{WARNING: This code can generate illeagal catch conditions. Do not trade the resulting pokemon. Doesn't work on random/stationary encounters}
+{WARNING: This code can generate illegal catch conditions. Do not trade the resulting pokemon. Doesn't work on random/stationary encounters}
 
 [Radar Pokemon force first move]
 D3000000 082C6C90
@@ -218,7 +218,7 @@ D0000000 00000000
 DC000000 00000510
 D1000000 00000000
 D2000000 00000000
-{WARNING: This code can generate illeagal catch conditions. Do not trade the resulting pokemon. Doesn't work on random/stationary encounters}
+{WARNING: This code can generate illegal catch conditions. Do not trade the resulting pokemon. Doesn't work on random/stationary encounters}
 
 [Radar Pokemon force level]
 D3000000 082C6C90
@@ -231,7 +231,7 @@ D0000000 00000000
 DC000000 00000510
 D1000000 00000000
 D2000000 00000000
-{WARNING: This code can generate illeagal catch conditions. Do not trade the resulting pokemon. Doesn't work on random/stationary encounters}
+{WARNING: This code can generate illegal catch conditions. Do not trade the resulting pokemon. Doesn't work on random/stationary encounters}
 
 [--]
 
@@ -279,6 +279,13 @@ D3000000 08C8E9C0
 10000000 000003E7
 D2000000 00000000
 {Because none of the rest really matter}
+
+[No outlines (v.1.4)]
+0037A144 00000000
+
+[Re-enable outlines (v.1.4)]
+0037A144 3F800000
+{Re-activates outlines after the above code}
 
 [Access PC from options button (L)]
 D3000000 00000000
