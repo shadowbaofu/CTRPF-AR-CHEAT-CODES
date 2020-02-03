@@ -6,6 +6,10 @@
 [Max Battle Points]
 08896F64 3B9AC9FF
 
+[Max Navarro Points]
+08921F4C 3B9AC9FF
+{Turn on before using MeTaMo and leave on at least until the streetpass shop screen}
+
 [--]
 
 [++Character Data++]
