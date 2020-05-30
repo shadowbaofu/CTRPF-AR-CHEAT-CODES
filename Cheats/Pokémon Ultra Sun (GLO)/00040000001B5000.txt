@@ -1,4 +1,23 @@
+[Wild Pokemon Modifier v1.2, use hexadecimal converted number for XXX from National Pokedex number for corresponding Pokémon] 
+005BBFC0 E92D400E 
+005BBFC4 E59F0014 
+005BBFC8 E3500000 
+005BBFCC 18BD800E 
+005BBFD0 E59F000C 
+005BBFD4 EBF90532 
+005BBFD8 E2800001 
+005BBFDC E8BD800E 
+005BBFE0 00000XXX 
+005BBFE4 00000327 
+003A86A0 EB084E46 
+003A86B0 E1D400B0 
+003A86CC E1D400B0
 
+[Wild Pokemon LV v1.2 use hexadecimal converted level number from 1-100 for YY] 
+003A8688 E3A000YY
+
+[Wild Pokemon Forms v1.2 use hexadecimal converted number for corresponding form number for ZZ] 
+003A873C C3A000ZZ
 
 [Fast Treasure Hunt v1.2]
 0044E534 E3A04000
