@@ -1108,6 +1108,7 @@ D3000000 30758B44
 {Legitimately completed tasks will correctly update to 'complete' when this code is off.\n\nLeaving this on can disable pause menu under certain circumstances}
 
 [All Date-Restricted Training Completed]
+D3000000 30758000
 00000B74 00000006
 00000BA8 00000010
 00000B9C 000001FF
