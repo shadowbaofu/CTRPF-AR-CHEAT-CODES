@@ -21,6 +21,9 @@ C0000000 00000004
 DC000000 00000004
 D1000000 00000000
 20000000 0000003F
+D3000000 30758C38
+00000000 00000060
+
 
 [Fill empty SM Storage slots with specific move]
 D3000000 30769118
@@ -851,18 +854,20 @@ C0000000 00000152
 D0000000 00000000
 DC000000 00000010
 D1000000 00000000
+D3000000 30758BB0
+00000000 00000119
 D3000000 30756D6C
 C0000000 00000005
 10000028 000003E7
 D1000000 00000000
 D2000000 00000000
-{Press L+R+Start to recruit missing characters, too.\n\nDoes not affect mandatory Story recruits.\n\nCurrently incomplete, as it breaks the Recruit count Training objectives.\n\nRequires Save/Reload to see move changes.}
+{Press L+R+Start to recruit missing characters, too.\n\nDoes not affect mandatory Story recruits.\n\nRequires Save/Reload to see move changes.}
 
 [Synch All Character Exp with CaC Exp]
 D3000000 30764448
 D9000000 00000000
 D3000000 30764AD0
-C0000000 00000407
+C0000000 00000409
 D6000000 00000000
 DC000000 0000000C
 D1000000 00000000
@@ -1018,7 +1023,7 @@ D4000000 00000008
 D8000000 00000000
 DC000000 FFFFFFFF
 D0000000 00000000
-{Activates the Gohanks event in Baba's Pallace; Adds Tanks, Great Satanman, and Gorus at level 30 with their default moves (Requires save and reload to update level/moves); Adds Hit, Beerus, Whis, and Cabba outfits}
+{Activates the Gohanks event in Baba's Pallace\n\nAdds Tanks, Great Satanman, and Gorus at level 30 with their default moves. Requires save and reload to update level/moves\n\nAdds Hit, Beerus, Whis, and Cabba outfits}
 
 [--]
 
@@ -1041,12 +1046,74 @@ D3000000 307644A4
 
 [--]
 
+[++Main Character Looks++]
+
+[Add CaC Saiyan Tail]
+D3000000 307645A8
+C0000000 00000003
+A0000000 FFFE0001
+DB000000 00000000
+D4000000 00000001
+D8000000 00000000
+DC000000 00000053
+D1000000 00000000
+
+[Remove CaC Saiyan Tail]
+D3000000 307645A8
+C0000000 00000003
+90000000 FFFE0001
+DB000000 00000000
+D4000000 FFFFFFFF
+D8000000 00000000
+DC000000 00000053
+D1000000 00000000
+
+[Hide Metamo Ring (fused CaC)]
+D3000000 307645FE
+C0000000 00000002
+90000000 FFFD0002
+DB000000 00000000
+D4000000 FFFFFFFE
+D8000000 00000000
+DC000000 00000053
+D1000000 00000000
+
+[Show Metamo Ring (fused CaC)]
+D3000000 307645FE
+C0000000 00000002
+A0000000 FFFD0002
+DB000000 00000000
+D4000000 00000002
+D8000000 00000000
+DC000000 00000053
+D1000000 00000000
+
+[--]
+
+[++Training Modification++}
+
 [All Training Complete]
 D3000000 30758B44
 00000000 FFFFFFFF
 00000004 FFFFFFFF
 00000008 FFFFFFFF
 0000000C FFFFFFFF
+
+[Reset Training Flags (DON'T LEAVE ON)]
+D3000000 30758B44
+00000000 00000000
+00000004 00000000
+00000008 00000000
+0000000C 00000000
+{Legitimately completed tasks will correctly update to 'complete' when this code is off.\n\nLeaving this on can disable pause menu under certain circumstances}
+
+[All Date-Restricted Training Completed]
+00000B74 00000006
+00000BA8 00000010
+00000B9C 000001FF
+{No more playing every day just for the Quizzes/Tournaments/Dragonball Wishes}
+
+[--]
 
 [Rapid zenkai damage multiplier increase]
 607417DC 00000000
