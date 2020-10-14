@@ -41,7 +41,7 @@ D4000000 FFFFFFFE
 D7000000 00000000
 DC000000 FFFFFFFE
 D2000000 00000000
-{Edit in move ID at the end of line 11}
+{Edit in move ID at the end of line 11\n\nFind move IDs at rb.gy/vurn4f}
 
 [Instant Ziku-Kan Radar Recharge]
 D3000000 30759418
@@ -859,6 +859,7 @@ D3000000 30758BB0
 D3000000 30756D6C
 C0000000 00000005
 10000028 000003E7
+DC000000 00000004
 D1000000 00000000
 D2000000 00000000
 {Press L+R+Start to recruit missing characters, too.\n\nDoes not affect mandatory Story recruits.\n\nRequires Save/Reload to see move changes.}
@@ -910,7 +911,7 @@ FFFFFFFF FFFFFFFF
 FFFFFFFF FFFFFFFF
 FFFFFFFF FFFFFFFF
 0001FFFF 00000000
-{No More Chain Fusiong jsut to get the ideal EX Partner for yopur CaC}
+{No More Chain Fusing just to get the ideal EX Partner for your CaC}
 
 [All EX Fusion Characters Previously Fused]
 D3000000 30764AD0
@@ -960,7 +961,7 @@ C0000000 00000409
 0000000C 0000000F
 DC000000 00000010
 D2000000 00000000
-{Includes EX Fusions and QR characters. Player EX fusions will also be marked as previously completed}
+{Includes EX Fusions and QR characters}
 
 [--]
 
