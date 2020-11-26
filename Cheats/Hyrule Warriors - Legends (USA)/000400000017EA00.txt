@@ -35,9 +35,9 @@ D8000001 00000000
 DC000000 FFFFFFFF
 10000002 0000FFFF
 00000004 FFFFFFFF
-DB000001 00000008
-F7000000 00000001
-D8000001 00000008
+DA000001 00000008
+F7000000 00000601
+D7000001 00000008
 DC000000 FFFFFFFF
 D0000000 00000000
 D0000000 00000000
@@ -48,7 +48,7 @@ DF000001 00000000
 DC000000 00000080
 D1000000 00000000
 D2000000 00000000
-{Currently lacks the two Hammer badges\n\nIgnores Beast Ganon and Giant Cukoo, as this game removed Challenge Mode\n\nIgnores badges affecting alternate weapons on characters that have them}
+{Ignores Beast Ganon and Giant Cukoo, as this game removed Challenge Mode\n\nIgnores badges affecting alternate weapons on characters that have them}
 
 [All Characters Max Level (v1.6)]
 D3000000 085BEB20
@@ -120,18 +120,38 @@ DC000000 000001A0
 D1000000 00000000
 {Allows infinite Fairy Nukes and infinite Focus Spirit\n\nYou can still force-end Focus Spirit with A}
 
-[Current Character has Max HP (v1.6)]
-D3000000 09153BE8
-C0000000 00000002
-50000000 FFFF0000
-D9000000 00000014
-D6000000 0000000C
-D6000000 0000000C
+[All Playable Characters have Max HP (v1.6)]
+D3000000 091FFD32
+80000000 0000031D
+D3000000 09153BE2
+C0000000 0000003C
+80000000 0000031D
+70000000 00000322
+D9000000 0000001A
+D6000000 00000012
+D6000000 00000012
 DC000000 FFFFFFF8
 D0000000 00000000
-DC000000 00000030
-D2000000 00000000
-{To heal other playable characters, simply switch to them\n\nYou won't be able to heal allies you can't control yet in Legend Mode scenarios}
+D0000000 00000000
+DC000000 00000028
+D1000000 00000000
+D0000000 00000000
+D3000000 091FFD62
+80000000 0000031D
+D3000000 09153C12
+C0000000 0000003C
+80000000 0000031D
+70000000 00000322
+D9000000 0000001A
+D6000000 00000012
+D6000000 00000012
+DC000000 FFFFFFF8
+D0000000 00000000
+D0000000 00000000
+DC000000 00000028
+D1000000 00000000
+D0000000 00000000
+{Playable characters are effectively imortal - even when not the active character.\n\nDOES NOT affect allies whose icons do not appear on the lower screen.\n\nDOES affect greyed-out characters that can be selected later in the scenario}
 
 [++Outdated Codes++]
 
