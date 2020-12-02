@@ -162,6 +162,21 @@ D1000000 00000000
 D0000000 00000000
 {Playable characters are effectively imortal - even when not the active character.\n\nDOES NOT affect allies whose icons do not appear on the lower screen.\n\nDOES affect greyed-out characters that can be selected later in the scenario}
 
+[Items Always Powered Up]
+D3000000 091FFBC8
+D3000001 091FFD62
+DF000000 00000001
+80000000 0000031D
+DF000000 00000000
+DC000000 00000030
+D0000000 00000000
+DF000000 00000000
+C0000000 00000005
+A0000000 FF0000FF
+20000001 00000002
+DC000000 00000006
+D1000000 00000000
+
 [++Outdated Codes++]
 
 [Warriors 1 through 3 Max Magic/Special Update 1.3.0]
