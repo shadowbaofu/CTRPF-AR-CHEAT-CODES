@@ -66,6 +66,7 @@ D2000000 00000000
 0057986C E0000190
 00579870 E8BD8002
 0016B81C EB10380F
+{Tested and works on Citra for Android. 3DS untested, but should also work}
 
 [++Nav-Dex Radar codes++]
 
