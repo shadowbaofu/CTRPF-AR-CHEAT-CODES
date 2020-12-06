@@ -1,5 +1,3 @@
-[++iSharingan's v1.6 codes++]
-
 [Max Rupees (v1.6)]
 08564F74 0098967F
 
@@ -501,8 +499,6 @@ D1000000 00000000
 
 [--]
 
-[--]
-
 [++Outdated Codes++]
 
 [Warriors 1 through 3 Max Magic/Special Update 1.3.0]
@@ -606,4 +602,3 @@ D1000000 00000000
 09200398 00000000
 09200538 00000000
 
-[--]
