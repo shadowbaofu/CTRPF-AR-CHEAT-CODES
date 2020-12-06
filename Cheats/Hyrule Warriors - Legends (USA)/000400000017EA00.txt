@@ -21,7 +21,7 @@ D2000000 00000000
 [Max Rupees (v1.6)]
 08564F74 0098967F
 
-[All Characters Have Default Badges (v1.6)]
+[All Characters Have All Standard Badges (v1.6)]
 D3000000 085BEB08
 D5000002 00000001
 C0000000 0000001F
@@ -60,7 +60,7 @@ DF000001 00000000
 DC000000 00000080
 D1000000 00000000
 D2000000 00000000
-{Ignores Beast Ganon and Giant Cukoo, as this game removed Challenge Mode\n\nIgnores badges affecting alternate weapons on characters that have them\n\nWon't soft-lock the game if used before first visit to the Badge Market}
+{Ignores Beast Ganon and Giant Cukoo, as the 3DS release removed Challenge Mode\n\nIgnores badges affecting alternate weapons on characters that have them\n\nWon't soft-lock the game if used before first visit to the Badge Market}
 
 [All Characters Max Level (v1.6)]
 D3000000 085BEB20
@@ -80,11 +80,11 @@ D3000000 091FFC40
 D2000000 00000000
 {Only matters for Adventure Mode}
 
-[10x All Owned Item Cards (v1.6)]
+[5x All Owned Item Cards (v1.6)]
 D3000000 08567D90
 C0000000 0000000C
 A0000000 FF000000
-20000000 0000000A
+20000000 00000005
 D0000000 00000000
 DC000000 00000001
 D2000000 00000000
@@ -162,34 +162,69 @@ D0000000 00000000
 DC000000 00000028
 D1000000 00000000
 D0000000 00000000
-{Playable characters are effectively imortal - even when not the active character.\n\nDOES NOT affect allies whose icons do not appear on the lower screen.\n\nDOES affect greyed-out characters that can be selected later in the scenario}
+{Playable characters are effectively imortal - even when not the active character.\n\nDOES NOT affect allies whose icons do not appear on the lower screen.\n\nDOES affect greyed-out characters that can be selected later in the scenario (if you're close enough)}
 
-[Items Always Powered Up  (v1.6)]
+[Items Always Powered Up/Infinite Fairy Skill Uses (v1.6)]
+D5000002 091FFCD0
+DF000000 00000001
+D3000001 085954A0
+DB000001 00000000
+DC000000 00000008
+C1000000 00000000
+DC000000 00000098
+D1000000 00000000
+90000000 FF000001
+D9000001 0000003F
+D0000000 00000000
 D3000000 091FFBC8
 D3000001 091FFD62
 DF000000 00000001
 80000000 0000031D
 DF000000 00000000
 DC000000 00000030
+D5000002 091FFD00
 D0000000 00000000
 DF000000 00000000
 C0000000 00000005
 A0000000 FF0000FF
 20000001 00000002
+D0000000 00000000
 DC000000 00000006
 D1000000 00000000
-{Needs Adventure Mode Adjustment}
-
-[255x All Owned Fairy Food  (v1.6)]
-D3000000 085671D0
-C0000000 00000084
-A0000000 FF000000
-20000000 000000FF
+DC000000 FFFFFFE2
+DC000000 00000036
+DF000001 00020001
+DF000000 00000001
+00000000 FFFFFFFF
+DFFFFFFF 00000002
+DF000001 00000000
+60000000 00000000
+DF000000 00000001
+D6000000 00000000
+DC000000 FFFFFFFC
+DFFFFFFF 00000000
+DF000000 00000000
+00000000 00000000
+C0000000 00000004
+DF000000 00000001
+A0000000 FF0000FF
+DB000000 00000000
+DF000000 00000000
+A0000000 0000FFFF
+10000000 00000008
 D0000000 00000000
+20000003 00000005
+D8000000 00000002
+DC000000 FFFFFFFF
+D0000000 00000000
+DF000000 00000001
 DC000000 00000001
+DF000000 00000000
+DC000000 00000006
 D1000000 00000000
+{Use the 'Apply Coppied Skills' code to use more than 1 Fairy skill with this code}
 
-[Have 255x All Fairy Food  (v1.6)]
+[Have All Fairy Food]
 D3000000 085671D0
 D5000000 00000000
 C0000000 00000084
@@ -312,7 +347,7 @@ D0000000 00000000
 D0000000 00000000
 DC000000 00000098
 D1000000 00000000
-{X+Left to copy\n\nY+Left to reset}
+{X+Left to copy\n\nY+Left to reset\n\nEffects of this code are persistant\n\nThis code can be turned off when not updating/resetting the coppied skill}
 
 [Copy Equipped Skill to 3rd Slot (All Fairies)]
 D3000000 08566980
@@ -332,7 +367,7 @@ D0000000 00000000
 D0000000 00000000
 DC000000 00000098
 D1000000 00000000
-{X+Down to copy\n\nY+Down to reset}
+{X+Down to copy\n\nY+Down to reset\n\nEffects of this code are persistant\n\nThis code can be turned off when not updating/resetting the coppied skill}
 
 [Copy Equipped Skill to 4th Slot (All Fairies)]
 D3000000 08566980
@@ -352,7 +387,25 @@ D0000000 00000000
 D0000000 00000000
 DC000000 00000098
 D1000000 00000000
-{X+Right to copy\n\nY+Right to reset}
+{X+Right to copy\n\nY+Right to reset\n\nEffects of this code are persistant\n\nThis code can be turned off when not updating/resetting the coppied skill}
+
+[Apply Coppied Skills (All Fairies) test]
+D3000000 08566980
+C0000000 00000001
+90000000 FF000001
+DB000000 0000003F
+D8000000 00000094
+DC000000 FFFFFFFF
+D9000000 00000094
+D8000000 00000084
+DC000000 FFFFFFFF
+FA000000 00000008
+D8000000 00000085
+DC000000 FFFFFFFF
+D0000000 00000000
+DC000000 00000098
+D1000000 00000000
+{The above codes copy to persistant memory that will remain after closing the software if you save\n\nSimply re-activate this code to re-apply coppied skills set up previously}
 
 [Apply Coppied Skills (All Fairies)]
 D3000000 08566980
@@ -367,7 +420,7 @@ DC000000 FFFFFFFC
 D0000000 00000000
 DC000000 00000098
 D1000000 00000000
-{The above codes copy to persistant memory that will remain after closing the software if you save\n\nSimply re-activate this code to re-apply coppied skills set up previously}
+{The above codes copy to persistant memory that will remain after closing the software if you save\n\nSimply re-activate this code to re-apply coppied skills}
 
 [--]
 
@@ -385,7 +438,7 @@ E0000000 00000010
 D0000000 00000000
 DC000000 00000054
 D1000000 00000000
-{Master Sword skills and Legendary skill will require extra conditions, but will have 0 remaining kills required}
+{Master Sword skills and Legendary skill will require extra conditions, but will have 0 remaining kills required\n\nEffects are not immediately visible upon obtaining a new weapon}
 
 [All Weapons Have 5 Stars]
 D3000000 085CAD10
@@ -397,7 +450,7 @@ D0000000 00000000
 D0000000 00000000
 DC000000 00000054
 D1000000 00000000
-{Except Master Sword}
+{Except Master Sword\n\nEffects are not immediately visible upon obtaining a new weapon}
 
 [All Weapons Have 8 Slots]
 D3000000 085CAD10
@@ -432,7 +485,7 @@ D0000000 00000000
 D0000000 00000000
 DC000000 00000054
 D1000000 00000000
-{Except Master Sword\n\nMissing slots are converted to empty slots}
+{Except Master Sword\n\nMissing slots are converted to empty slots\n\nEffects are not immediately visible upon obtaining a new weapon}
 
 [Add Legendary Skill To All Weapons]
 D3000000 085CAD10
@@ -450,7 +503,7 @@ D0000000 00000000
 D0000000 00000000
 DC000000 00000054
 D1000000 00000000
-{Except Master Sword\n\nIgnores weapons that already have the skill}
+{Except Master Sword\n\nAdding Legendary will replace the weapon's first skill\n\nIgnores weapons that already have the skill\n\nEffects are not immediately visible upon obtaining a new weapon}
 
 [--]
 
