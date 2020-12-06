@@ -13,7 +13,7 @@ C0000000 0000006A
 D0000000 00000000
 DC000000 00000002
 D2000000 00000000
-{Only affects items you currently have at least 1 of.}
+{Only affects items you currently own 1+ of}
 
 [All Materials x999]
 D3000000 085667BA
@@ -21,7 +21,7 @@ C0000000 0000006A
 10000000 000003E7
 DC000000 00000002
 D2000000 00000000
-{Ignores whether you already owned the item or not.\n\n'???' items will not display their name until picked up legit at least once.}
+{Ignores existing item quantity\n\n'???' items will not display their name until picked up legit at least once.}
 
 [--]
 
@@ -36,7 +36,7 @@ D0000000 00000000
 DC000000 00000080
 D1000000 00000000
 D2000000 00000000
-{Kill any enemy with a character to instantly level up to 255.\n\nThe cost of leveling up in the Bazaar behaves oddly with this code on, but doesn't break anything}
+{Kill anything to instantly a character level to 255.\n\nBazaar level buying behaves oddly, but nothing breaks\n\nNew character unlocks wil revert EXP with this off}
 
 [All Characters Have All Standard Badges]
 D3000000 085BEB08
@@ -77,7 +77,7 @@ DF000001 00000000
 DC000000 00000080
 D1000000 00000000
 D2000000 00000000
-{Ignores Beast Ganon and Giant Cukoo, as the 3DS release removed Challenge Mode\n\nIgnores badges affecting alternate weapons on characters that have them\n\nWon't soft-lock the game if used before first visit to the Badge Market}
+{Skips Beast Ganon and Giant Cukoo (3DS removed Challenge Mode)\n\nIgnores badges for secondary weapon types on characters that have them\n\nWon't soft-lock the forced Badge Market visit}
 
 [--]
 
@@ -124,7 +124,7 @@ D0000000 00000000
 DC000000 00000028
 D1000000 00000000
 D0000000 00000000
-{Playable characters are effectively imortal - even when not the active character.\n\nDOES NOT affect allies whose icons do not appear on the lower screen.\n\nDOES affect greyed-out characters that can be selected later in the scenario (if you're close enough)}
+{Playable characters are effectively imortal\n\nDOES NOT affect unplayable allies (icons are not on the lower screen)\n\nDOES affect characters playable later in the scenario (if you're close enough)}
 
 [All Characters Max Special]
 D3000000 091FFD98
@@ -166,7 +166,7 @@ C0000000 00000004
 D0000000 00000000
 DC000000 000001A0
 D1000000 00000000
-{Allows infinite Fairy Nukes and unlimited Focus Spirit duration\n\nYou can still force-end Focus Spirit with A}
+{Allows infinite Fairy Nukes and unlimited Focus Spirit duration\n\nYou can force-end Focus Spirit with A}
 
 [Items Always Powered Up/Infinite Fairy Skill Uses]
 D5000002 091FFCD0
@@ -226,14 +226,14 @@ DC000000 00000001
 DF000000 00000000
 DC000000 00000006
 D1000000 00000000
-{The 'Apply Coppied Skills' code must be turned on BEFORE starting a scenario to use more than 1 Fairy skill with this code}
+{The 'Apply Coppied Skills' code must be on BEFORE starting a scenario to use more than 1 Fairy skill with this code}
 
 [0 Damage Taken (Adventure Mode)]
 D3000000 091FFC40
 50000000 FFFFFFFF
 00000278 00000000
 D2000000 00000000
-{This stat does not substantially affect results in Legend Mode Mode, thus is ignored}
+{This stat does not substantially affect results in Legend Mode, thus is ignored}
 
 [--]
 
@@ -247,6 +247,7 @@ C0000000 00000084
 D8000000 000000F0
 D4000000 00000001
 D1000000 00000000
+{Food will be ordered by ID number}
 
 [Max Level (All Fairies)]
 D3000000 08566980
@@ -256,7 +257,7 @@ C0000000 0000000C
 D0000000 00000000
 DC000000 00000098
 D1000000 00000000
-{Bypasses Aura Effect unlocks, but feeding food will unlock them 1 at a time.}
+{Bypasses Aura Effect unlocks\n\nFeed any food to unlock them}
 
 [Max Happiness (All Fairies)]
 D3000000 08566980
@@ -266,7 +267,7 @@ C0000000 0000000C
 D0000000 00000000
 DC000000 00000098
 D1000000 00000000
-{Same effect as feeding a lot of matching element food}
+{Same effect as feeding 100 food that matched with the fairy's element}
 
 [Max Refresh Count (All Fairies)]
 D3000000 08566980
@@ -276,7 +277,7 @@ C0000000 0000000C
 D0000000 00000000
 DC000000 00000098
 D1000000 00000000
-{Same effect as refreshing 255 times.\n\nRefreshing again when this code is off will reset to 0 refreshes}
+{Same effect as refreshing 255 times.\n\nRefreshing again with this code off will reset the counter to 0}
 
 [Always Give Gift When Fed (All Fairies)]
 D3000000 08566980
@@ -314,6 +315,7 @@ D0000000 00000000
 D0000000 00000000
 DC000000 00000098
 D1000000 00000000
+{All other aura types are less useful than the heavy defense reduction provided by Bombos}
 
 [Max Trait Refresh Buildup (All Fairies)]
 D3000000 08566980
@@ -360,7 +362,7 @@ D0000000 00000000
 D0000000 00000000
 DC000000 00000098
 D1000000 00000000
-{X+Left to copy\n\nY+Left to reset\n\nEffects of this code are persistant\n\nThis code can be turned off when not updating/resetting the coppied skill}
+{X+Left to copy\n\nY+Left to reset\n\nIntended to customize all fairies at once with independant skill settings\n\nOnly needed when updating/resetting copied skills}
 
 [Copy Equipped Skill to 3rd Slot (All Fairies)]
 D3000000 08566980
@@ -380,7 +382,7 @@ D0000000 00000000
 D0000000 00000000
 DC000000 00000098
 D1000000 00000000
-{X+Down to copy\n\nY+Down to reset\n\nEffects of this code are persistant\n\nThis code can be turned off when not updating/resetting the coppied skill}
+{X+Down to copy\n\nY+Down to reset\n\nIntended to customize all fairies at once with independant skill settings\n\nOnly needed when updating/resetting copied skills}
 
 [Copy Equipped Skill to 4th Slot (All Fairies)]
 D3000000 08566980
@@ -400,7 +402,7 @@ D0000000 00000000
 D0000000 00000000
 DC000000 00000098
 D1000000 00000000
-{X+Right to copy\n\nY+Right to reset\n\nEffects of this code are persistant\n\nThis code can be turned off when not updating/resetting the coppied skill}
+{X+Right to copy\n\nY+Right to reset\n\nIntended to customize all fairies at once with independant skill settings\n\nOnly needed when updating/resetting copied skills}
 
 [Apply Coppied Skills (All Fairies)]
 D3000000 08566980
@@ -415,7 +417,7 @@ DC000000 FFFFFFFC
 D0000000 00000000
 DC000000 00000098
 D1000000 00000000
-{The above codes copy to persistant memory that will remain after closing the software if you save\n\nSimply re-activate this code to re-apply coppied skills}
+{The above 3 codes write to the game's save\n\nRe-activate this code to re-apply copied skills in future sessions}
 
 [--]
 
@@ -433,7 +435,7 @@ E0000000 00000010
 D0000000 00000000
 DC000000 00000054
 D1000000 00000000
-{Master Sword skills and Legendary skill will require extra conditions, but will have 0 remaining kills required\n\nEffects are immediately visible upon obtaining a new weapon}
+{Legendary and Master Sword skills still require extra conditions, but will require 0 kills\n\nEffects are immediately visible on new weapons}
 
 [All Weapons Have 5 Stars]
 D3000000 085CAD10
@@ -445,7 +447,7 @@ D0000000 00000000
 D0000000 00000000
 DC000000 00000054
 D1000000 00000000
-{Except Master Sword\n\nEffects are immediately visible upon obtaining a new weapon}
+{Except Master Sword\n\nEffects are immediately visible on new weapons}
 
 [All Weapons Have 8 Slots]
 D3000000 085CAD10
@@ -480,25 +482,22 @@ D0000000 00000000
 D0000000 00000000
 DC000000 00000054
 D1000000 00000000
-{Except Master Sword\n\nMissing slots are converted to empty slots\n\nEffects are immediately visible upon obtaining a new weapon}
+{Except Master Sword\n\nMissing slots are converted to empty slots\n\nEffects are immediately visible on new weapons}
 
-[Add Legendary Skill To All Weapons]
+[1st Weapon Of Each Type Has Legendary]
 D3000000 085CAD10
 C0000000 00000406
 A0000010 0000FFFF
 A0000010 0000003C
-A000001E FF0F0010
-DB000000 0000001E
-D4000000 00000010
-D8000000 0000001E
-DC000000 FFFFFFFF
+9000001E FF000000
+2000001E 00000010
 20000016 0000002A
 D0000000 00000000
 D0000000 00000000
 D0000000 00000000
 DC000000 00000054
 D1000000 00000000
-{Except Master Sword\n\nAdding Legendary will replace the weapon's first skill\n\nIgnores weapons that already have the skill\n\nEffects are immediately visible upon obtaining a new weapon}
+{Except Master Sword\n\nReplaces the weapon's 1st skill if it's not present already\n\nApply to multiple weapons by fusing to later weapon copies or shuffling weapons with 11+ copies}
 
 [--]
 
