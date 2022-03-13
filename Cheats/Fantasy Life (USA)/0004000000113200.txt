@@ -32,6 +32,26 @@ D0000000 00000000
 DC000000 0000003C
 D1000000 00000000
 
+[++DLC flag codes++]
+
+[Save to activate DLC]
+D3000000 00723289
+DB000000 00000000
+F7000000 00000008
+D8000000 00000000
+DC000000 FFFFFFFF
+{Quit game and load save again to see the effect.\n\nChanges multiplayer version to 1.0.1 and enables all DLC content like official DLC saves.}
+
+[Save to deactivate DLC]
+D3000000 00723289
+DB000000 00000000
+F6000000 000000F7
+D8000000 00000000
+DC000000 FFFFFFFF
+{Quit game and load save again to see the effect.\n\nIf DLC content is already started, this just reverts multiplayer version to 1.0.0, disables redeeming/collecing Lunares Coins, and lets you play with nonDLC saves.}
+
+[--]
+
 [++Equipped Weapon Codes++]
 
 [Crafting Effect Changer]
