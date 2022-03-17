@@ -32,7 +32,7 @@ D0000000 00000000
 DC000000 0000003C
 D1000000 00000000
 
-[++DLC flag codes++]
+[++Flag codes++]
 
 [Save to activate DLC]
 D3000000 00723289
@@ -40,7 +40,7 @@ DB000000 00000000
 F7000000 00000008
 D8000000 00000000
 DC000000 FFFFFFFF
-{Quit game and load save again to see the effect.\n\nChanges multiplayer version to 1.0.1 and enables all DLC content like official DLC saves.}
+{Quit game and load save again to see the effect (or leave this on when loading your save).\n\nChanges multiplayer version to 1.0.1 and enables all DLC content like official DLC saves.\n\n100% identical effect to loading your game with the DLC installed.}
 
 [Save to deactivate DLC]
 D3000000 00723289
@@ -48,7 +48,23 @@ DB000000 00000000
 F6000000 000000F7
 D8000000 00000000
 DC000000 FFFFFFFF
-{Quit game and load save again to see the effect.\n\nIf DLC content is already started, this just reverts multiplayer version to 1.0.0, disables redeeming/collecing Lunares Coins, and lets you play with nonDLC saves.}
+{Quit game and load save again to see the effect (or leave this on when loading your save). Fails if the DLC is installed (the bit will be flipped back on by the game).\n\nDisables access to locked/repeatable DLC features - but doesnt remove, affect, or revert items/upgrades/story already unlocked.\n\n TLDR, this lets you use a DLC save to play with with nonDLC saves.}
+
+[Enable Snapshots]
+D3000000 00723289
+DB000000 00000000
+F7000000 00000040
+D8000000 00000000
+DC000000 FFFFFFFF
+{[Re-]enables Snapshots for spur-of-the-moments reasons.\n\nYou can re-activate snapshots in-game without cheats by talking to the Link Clerk in the Guild Office}
+
+[Disable Snapshots]
+D3000000 00723289
+DB000000 00000000
+F6000000 000000BF
+D8000000 00000000
+DC000000 FFFFFFFF
+{Prevents the annoying tendancy to take a snapshot every time you open the plugin menu - or forget the bag opens with Y and not Start}
 
 [--]
 
