@@ -51,10 +51,10 @@ D1000000 00000000
 0829272C 270F270F
 0829273A 270F270F
 
-[Inf HP/MP - Hero (alternate)]
-08292738 270F001E
-0829273c 00002704
-{Allows stats to revert to normal values when disabled}
+[Inf HP/MP - Hero (current stat values only)]
+1829273A 0000270F
+0829273c 0000270F
+{Doesnt affect max HP/MP stats}
 
 [Hero Stats]
 08292730 03E703E7
