@@ -54,7 +54,7 @@ BFFFE240 00000000
 DD000000 00000200
 10000054 000003E7
 D2000000 00000000
-{SPAM EVERYTHING! Needs button press to avoid softlock at the start of your team's turn.}
+{SPAM EVERYTHING! Button press avoids minor softlock at the start of your team's turn.}
 
 [Always max boost gauge]
 4FFFE240 14000000
@@ -91,6 +91,89 @@ DC000000 00000210
 D1000000 00000000
 D2000000 00000000
 {Evasion+ is almost too good like this... Also Attack+...}
+
+[++ASM versions++]
+
+[FP Code (L=360FP, R=0FP, L+R=Off)]
+DD000000 00000100
+00265DD4 E3A00F5A
+D2000000 00000000
+DD000000 00000200
+00265DD4 E3A00000
+D2000000 00000000
+DD000000 00000300
+00265DD4 E0800003
+D2000000 00000000
+{R sets FP after gain to 360. L sets FP after 'gain' to 0. L+R disables the effect. Effects apply to both teams, so they have to be manually toggled/deactivated every turn to avoid undesired effects}
+
+[HP Code (L=OHKO, R=God Mode, L+R=Off)]
+DD000000 00000100
+0025CBBC E3A01000
+00278934 E58100E8
+D2000000 00000000
+DD000000 00000200
+0025CBBC E320F000
+00278934 E320F000
+D2000000 00000000
+DD000000 00000300
+0025CBBC E0411002
+00278934 E58100E8
+D2000000 00000000
+{R activates Instakill mode. L activates god mode. L+R disables the effect. Effects apply to both teams, so they have to be manually toggled/deactivated every turn to avoid undesired effects}
+
+[--]
+
+[--]
+
+[++Use Vivosaur in Battle Codes++]
+
+[!!!See Note here for code usage!!!]
+{The below codes replace your active Vivosaur in battle with the one selected. They seem keep similar stat to the active Vivosaur but use the new moveset of whatever you chose to load. "Use Regular Vivosaurs in Battle" code disables the effect of the other codes.}
+
+[Use Beta Vivosaur in Battle]
+002C62C4 E3A00010
+002C62CC E3A01010
+002C6300 E3A02010
+00443068 E3A08010
+002440E8 E3A00010
+002440FC E3A00010
+{Replaces active Vivosaur when battle starts}
+
+[Use Earth Dragon in Battle]
+002C62C4 E3A00054
+002C62CC E3A01054
+002C6300 E3A02054
+00443068 E3A08054
+002440E8 E3A00054
+002440FC E3A00054
+{Replaces active Vivosaur when battle starts}
+
+[Use Dreadsaurus in Battle]
+002C62C4 E3A00055
+002C62CC E3A01055
+002C6300 E3A02055
+00443068 E3A08055
+002440E8 E3A00055
+002440FC E3A00055
+{Replaces active Vivosaur when battle starts}
+
+[Use Dreadraven in Battle]
+002C62C4 E3A00056
+002C62CC E3A01056
+002C6300 E3A02056
+00443068 E3A08056
+002440E8 E3A00056
+002440FC E3A00056
+{Replaces active Vivosaur when battle starts}
+
+[Use Regular Vivosaurs in Battle]
+002C62C4 E5D60094
+002C62CC E5D61094
+002C6300 E5D62094
+00443068 E5D08094
+002440E8 E5D60094
+002440FC E5D60094
+{Reverts to normal behavior}
 
 [--]
 
@@ -285,6 +368,29 @@ D0000000 00000000
 DC000000 00000036
 D1000000 00000000
 {Alternative to excavating a second fossil while the 50% code is active.}
+
+[Complete Vivosaur Unlock (L+R)]
+DD000000 00000300
+D3000000 1495C4C4
+C0000000 00000061
+20000000 00000001
+20000024 0000001E
+20000025 00000001
+20000026 00000064
+20000028 00000064
+20000029 00000001
+2000002A 00000064
+2000002C 00000064
+2000002D 00000001
+2000002E 00000064
+20000030 00000064
+20000031 00000001
+20000032 00000064
+20000034 00000064
+DC000000 00000036
+D1000000 00000000
+D2000000 00000000
+{Unlocks all Vivosaurs (including AR Vivosaurs and an unused Vivosaurs) with all skills, 100% fossils, and at Rank 30}
 
 [--]
 
