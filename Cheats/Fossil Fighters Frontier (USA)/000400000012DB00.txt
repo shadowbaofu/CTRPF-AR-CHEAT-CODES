@@ -261,6 +261,27 @@ D2000000 00000000
 
 [--]
 
+[++Unused Paleo Pal Codes++]
+
+[!!!See Note here for code usage!!!]
+{To use properly, click to go into a dig site. Then, click A on one of your Paleo Pals before entering and then back out. Your Paleo Pals will be replaced with the ones below. These codes will make it so you're alone in tournament play, so disable them when you enter a tournament. This isn't a problem though, as these characters would crash tournaments anyways.}
+{Stryker uses Prehistoric Tyrannosaurus. Prof. Little uses Prehistoric Sauroposeidon. Dr. Blackraven uses Prehistoric Triceratops.}
+
+[Use Stryker and Prof. Little]
+207DEC45 0000001D
+207DEC46 0000001E
+
+[Use Stryker and Blackraven]
+207DEC45 0000001D
+207DEC46 0000001F
+
+[Use Prof. Little and Blackraven]
+207DEC45 0000001E
+207DEC46 0000001F
+
+[--]
+
+
 [++Your Vivosaur Stat Codes++]
 
 [!!!See Notes here for code usage!!!]
@@ -276,7 +297,6 @@ BFFFE240 00000000
 10000154 000003E7
 D2000000 00000000
 {Start out with the 2nd Dreadraven's battle HP. Might revert to normal after attack unless Rank 30.}
-
 
 [Your Vivosaur Starts Out With 800 HP (L+R)]
 DD000000 00000300
