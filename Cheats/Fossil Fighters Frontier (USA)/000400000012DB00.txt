@@ -22,6 +22,20 @@ D1000000 00000000
 D2000000 00000000
 {Easy mode. No, seriously; this kills the fun.}
 
+[Your Team Is Invincible]
+4FFFE240 14000000
+3FFFE240 15000000
+BFFFE240 00000000
+C0000000 00000003
+80000150 00000000
+20000150 000000FF
+20000154 000000FF
+D0000000 00000000
+DC000000 00001430
+D1000000 00000000
+D2000000 00000000
+{All Team Members Have 255HP and their health doesn't decrease.}
+
 [0 enemy FP (Enemy AI waits every turn)]
 4FFFE24C 14000000
 3FFFE24C 15000000
@@ -94,9 +108,9 @@ D2000000 00000000
 
 [++ASM versions++]
 
-[FP Code (R=360FP, L=0FP, R+L=Off)]
+FP Code (R=Max FP, L=0FP, R+L=Off)
 DD000000 00000100
-00265DD4 E3A00F5A
+00265DD4 E3A00FE1
 D2000000 00000000
 DD000000 00000200
 00265DD4 E3A00000
@@ -104,23 +118,7 @@ D2000000 00000000
 DD000000 00000300
 00265DD4 E0800003
 D2000000 00000000
-{R sets FP after gain to 360. L sets FP after 'gain' to 0. L+R disables the effect. Effects apply to both teams, so they have to be manually toggled/deactivated every turn to avoid undesired effects}
-
-[HP Code (R=OHKO, L=God Mode, R+L=Off)]
-DD000000 00000100
-0025CBBC E3A01000
-00278934 E58100E8
-D2000000 00000000
-DD000000 00000200
-0025CBBC E320F000
-00278934 E320F000
-D2000000 00000000
-DD000000 00000300
-0025CBBC E0411002
-00278934 E58100E8
-D2000000 00000000
-{R activates Instakill mode. L activates god mode. L+R disables the effect. Effects apply to both teams, so they have to be manually toggled/deactivated every turn to avoid undesired effects}
-
+{R sets FP after gain to Max FP. L sets FP after 'gain' to 0. L+R disables the effect. Effects apply to both teams, so they have to be manually toggled/deactivated every turn to avoid undesired effects}
 [--]
 
 [--]
@@ -260,6 +258,95 @@ DC000000 00000036
 D1000000 00000000
 D2000000 00000000
 {Erases traces of the "Use Vivosaur in Battle Codes" from the save game.}
+
+[--]
+
+[++Your Vivosaur Stat Codes++]
+
+[!!!See Notes here for code usage!!!]
+{When the battle starts, you'll see your Vivosaur on the leftmost part of the field. During this time, Hold L+R and your Vivosaur's stats will be modified. If L+R is held while a Paleo Pal is in the leftmost field slot, their stats will be modified too, so don't hold L+R for too long.
+{HP codes might be good to emulate having a boss Vivosaur, especially in combination with the "Use Vivosaur" codes.}
+
+[Your Vivosaur Starts Out With 999 HP (L+R)]
+DD000000 00000300
+4FFFE240 14000000
+3FFFE240 15000000
+BFFFE240 00000000
+10000150 000003E7
+10000154 000003E7
+D2000000 00000000
+{Start out with the 2nd Dreadraven's battle HP. Might revert to normal after attack unless Rank 30.}
+
+
+[Your Vivosaur Starts Out With 800 HP (L+R)]
+DD000000 00000300
+4FFFE240 14000000
+3FFFE240 15000000
+BFFFE240 00000000
+10000150 00000320
+10000154 00000320
+D2000000 00000000
+{Start out with the 1st Dreadraven's battle HP. Might revert to normal after attack unless Rank 30.}
+
+[Your Vivosaur Starts Out With 480 HP (L+R)]
+DD000000 00000300
+4FFFE240 14000000
+3FFFE240 15000000
+BFFFE240 00000000
+10000150 000001E0
+10000154 000001E0
+D2000000 00000000
+{Start out with the 2nd Earth Dragon's battle HP. Might revert to normal after attack unless Rank 30.}
+
+[Your Vivosaur Starts Out With 400 HP (L+R)]
+DD000000 00000300
+4FFFE240 14000000
+3FFFE240 15000000
+BFFFE240 00000000
+10000150 00000190
+10000154 00000190
+D2000000 00000000
+{Start out with Dreadsaurus's battle HP. Might revert to normal after attack unless Rank 30.}
+
+[Your Vivosaur Starts Out With 280HP (L+R)]
+DD000000 00000300
+4FFFE240 14000000
+3FFFE240 15000000
+BFFFE240 00000000
+10000150 00000118
+10000154 00000118
+D2000000 00000000
+{Start out with the 1st Earth Dragon's battle HP. Might revert to normal after attack unless Rank 30.}
+
+[Your Vivosaur Starts Out With 255 ATK (L+R)]
+DD000000 00000300
+4FFFE240 14000000
+3FFFE240 15000000
+BFFFE240 00000000
+20000168 000000FF
+2000016C 000000FF
+D2000000 00000000
+{Can be further increased by support shots}
+
+[Your Vivosaur Starts Out With 255 DEF (L+R)]
+DD000000 00000300
+4FFFE240 14000000
+3FFFE240 15000000
+BFFFE240 00000000
+20000180 000000FF
+20000184 000000FF
+D2000000 00000000
+{Can be further increased by support shots}
+
+[Your Vivosaur Starts Out With 255 Evasion (L+R)]
+DD000000 00000300
+4FFFE240 14000000
+3FFFE240 15000000
+BFFFE240 00000000
+20000198 000000FF
+2000019C 000000FF
+D2000000 00000000
+{Can be further increased by support shots}
 
 [--]
 
@@ -666,4 +753,3 @@ D0000000 00000000
 D0000000 00000000
 
 [--]
-
