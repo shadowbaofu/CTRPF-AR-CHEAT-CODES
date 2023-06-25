@@ -1,0 +1,163 @@
+Pokémon Super Mystery Dungeon IDs (Treecko-Deoxys)
+
+142	Treecko	
+143	Grovyle
+144	Sceptile
+145	Torchic
+146	Combusken
+147	Blaziken
+148	Mega Blaziken
+149	Mudkip
+14A	Marshtomp
+14B	Swampert
+14C	Poochyena
+14D	Mightyena
+14E	Zigzagoon
+14F	Linoone
+150	Wurmple
+151	Wurmple*
+152	Silcoon
+153	Beautifly
+154	Cascoon
+155	Dustox
+156	Lotad
+157	Lombre
+158	Ludicolo
+159	Seedot
+15A	Nuzleaf
+15B	Shiftry
+15C	Taillow
+15D	Swellow
+15E	Wingull
+15F	Pelipper
+160	Ralts
+161	Kirlia
+162	Gardevoir
+163	Gallade
+164	Mega Gardevoir
+165	Surskit
+166	Masquerain
+167	Shroomish
+168	Breloom
+169	Slakoth
+16A	Vigoroth
+16B	Slaking
+16C	Nincada
+16D	Ninjask
+16E	Shedinja
+16F	Whismur
+170	Loudred
+171	Exploud
+172	Makuhita
+173	Hariyama
+174	Nosepass
+175	Probopass
+176	Skitty
+177	Delcatty
+178	Sableye
+179	Mawile
+17A	Mega Mawile
+17B	Aron
+17C	Lairon
+17D	Aggron
+17E	Mega Aggron
+17F	Meditite
+180	Medicham
+181	Mega Medicham
+182	Electrike
+183	Manectric
+184	Mega Manectric
+185	Plusle
+186	Minun
+187	Volbeat
+188	Illumise
+189	Budew
+18A	Roselia
+18B	Roserade
+18C	Gulpin
+18D	Swalot
+18E	Carvanha
+18F	Sharpedo
+190	Wailmer
+191	Wailord
+192	Numel
+193	Camerupt
+194	Torkoal
+195	Spoink
+196	Grumpig
+197	Spinda
+198	Trapinch
+199	Vibrava
+19A	Flygon
+19B	Cacnea
+19C	Cacturne
+19D	Swablu
+19E	Altaria
+19F	Zangoose
+1A0	Seviper
+1A1	Lunatone
+1A2	Solrock
+1A3	Barboach
+1A4	Whiscash
+1A5	Corphish
+1A6	Crawdaunt
+1A7	Baltoy
+1A8	Claydol
+1A9	Lileep
+1AA	Cradily
+1AB	Anorith
+1AC	Armaldo
+1AD	Feebas
+1AE	Milotic
+1AF	Normal Castform
+1B0	Fire Castform
+1B1	Water Castform
+1B2	Ice Castform
+1B3	Kecleon
+1B4	Purple Kecleon
+1B5	Shuppet
+1B6	Banette
+1B7	Duskull
+1B8	Dusclops
+1B9	Dusknoir
+1BA	Tropius
+1BB	Chingling
+1BC	Chimecho
+1BD	Absol
+1BE	Mega Absol
+1BF	Snorunt
+1C0	Glalie
+1C1	Froslass
+1C2	Spheal
+1C3	Sealeo
+1C4	Walrein
+1C5	Clamperl
+1C6	Huntail
+1C7	Gorebyss
+1C8	Relicanth
+1C9	Luvdisc
+1CA	Bagon
+1CB	Shelgon
+1CC	Salamence
+1CD	Beldum
+1CE	Metang
+1CF	Metagross
+1D0	Regirock
+1D1	Regice
+1D2	Registeel
+1D3	Latias
+1D4	Mega Latias
+1D5	Latios
+1D6	Mega Latios
+1D7	Kyogre
+1D8	Groudon
+1D9	Rayquaza
+1DA	Jirachi
+1DB	Deoxys-N
+1DC	Deoxys-D
+1DD	Deoxys-A
+1DE	Deoxys-S
+
+
+
+*Wurmple has two IDs, one for each "subspecies"--one evolves into Beautifly, the other into Dustox. Otherwise, they're exactly identical in appearance.

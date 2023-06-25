@@ -1,0 +1,198 @@
+Pokémon Super Mystery Dungeon IDs (Bulbasaur-Mew)
+
+001	Bulbasaur
+002	Ivysaur
+003 	Venusaur
+004	Mega Venusaur
+005	Charmander
+006	Charmeleon
+007	Charizard
+008	Mega Charizard X
+009	Mega Charizard Y
+00A	Squirtle
+00B	Wartortle
+00C	Blastoise
+00D	Mega Blastoise
+00E	Caterpie
+00F	Metapod
+010	Butterfree
+011	Weedle
+012	Kakuna
+013	Beedrill
+014	Pidgey
+015	Pidgeotto
+016	Pidgeot
+017	Rattata
+018	Raticate
+019	Spearow
+01A	Fearow
+01B	Ekans
+01C	Arbok	
+01D	Pichu
+01E	Pikachu
+01F	Raichu
+020	Sandshrew
+021	Sandslash
+022	Nidoran Female
+023	Nidorina
+024	Nidoqueen
+025	Nidoran Male
+026	Nidorino
+027	Nidoking
+028	Cleffa
+029	Clefairy
+02A	Clefable
+02B	Vulpix
+02C	Ninetales
+02D	Igglybuff
+02E	Jigglypuff
+02F	Wigglytuff
+030	Zubat	
+031	Golbat
+032	Crobat
+033	Oddish
+034	Gloom
+035	Vileplume
+036	Bellossom
+037	Paras
+038	Parasect
+039	Venonat
+03A	Venomoth
+03B	Diglett
+03C	Dugtrio
+03D	Meowth
+03E	Persian
+03F	Psyduck
+040	Golduck
+041	Mankey
+042	Primeape
+043	Growlithe
+044	Arcanine
+045	Poliwag
+046	Poliwhirl
+047	Poliwrath
+048	Politoed
+049	Abra
+04A	Kadabra
+04B	Alakazam
+04C	Mega Alakazam
+04D	Machop
+04E	Machoke
+04F	Machamp
+050	Bellsprout
+051	Weepinbell
+052	Victreebel
+053	Tentacool
+054	Tentacruel
+055	Geodude
+056	Graveler
+057	Golem
+058	Ponyta
+059	Rapidash
+05A	Slowpoke
+05B	Slowbro
+05C	Slowking
+05D	Magnemite
+05E	Magneton
+05F	Magnezone
+060	Farfetch’d
+061	Doduo
+062	Dodrio
+063	Seel
+064	Dewgong
+065	Grimer
+066	Muk
+067	Shellder
+068	Cloyster
+069	Gastly
+06A	Haunter
+06B	Gengar
+06C	Mega Gengar
+06D	Onix
+06E	Steelix
+06F	Drowzee
+070	Hypno
+071	Krabby
+072	Kingler
+073	Voltorb
+074	Electrode
+075	Exeggcute
+076	Exeggutor
+077	Cubone
+078	Marowak
+079	Tyrogue
+07A	Hitmonlee
+07B	Hitmonchan
+07C	Hitmontop
+07D	Lickitung
+07E	Lickilicky
+07F	Koffing
+080	Weezing
+081	Rhyhorn
+082	Rhydon
+083	Rhyperior
+084	Happiny
+085	Chansey
+086	Blissey
+087	Tangela
+088	Tangrowth
+089	Kangaskhan
+08A	Mega Kangaskhan
+08B	Horsea
+08C	Seadra
+08D	Kingdra
+08E	Goldeen
+08F	Seaking
+090	Staryu
+091	Starmie
+092	Mime Jr.
+093	Mr. Mime
+094	Scyther
+095	Scizor
+096	Mega Scizor
+097	Smoochum
+098	Jynx
+099	Elekid
+09A	Electabuzz
+09B	Electivire
+09C	Magby
+09D	Magmar
+09E	Magmortar
+09F	Pinsir
+0A0	Mega Pinsir
+0A1	Tauros
+0A2	Magikarp
+0A3	Gyarados
+0A4	Mega Gyarados
+0A5	Lapras
+0A6	Ditto
+0A7	Eevee
+0A8	Vaporeon
+0A9	Jolteon
+0AA	Flareon
+0AB	Espeon
+0AC	Umbreon
+0AD	Leafeon
+0AE	Glaceon
+0AF	Sylveon
+0B0	Porygon
+0B1	Porygon2
+0B2	PorygonZ
+0B3	Omanyte
+0B4	Omastar
+0B5	Kabuto
+0B6	Kabutops
+0B7	Aerodactyl
+0B8	Mega Aerodactyl
+0B9	Munchlax
+0BA	Snorlax
+0BB	Articuno
+0BC	Zapdos
+0BD	Moltres
+0BE	Dratini
+0BF	Dragonair
+0C0	Dragonite		
+0C1	Mewtwo
+0C2	Mega Mewtwo X
+0C3	Mega Mewtwo Y
+0C4	Mew

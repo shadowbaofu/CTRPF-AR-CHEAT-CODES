@@ -1,0 +1,24 @@
+03BC -- Mega Beedrill
+03BD -- Mega Pidgeot
+03BE -- Mega Slowbro
+03BF -- Mega Steelix
+03C0 -- Mega Sceptile
+03C1 -- Mega Swampert
+03C2 -- Mega Sableye
+03C3 -- Mega Sharpedo
+03C4 -- Mega Camerupt
+03C5 -- Mega Altaria
+03C6 -- Mega Glalie
+03C7 -- Mega Salamence
+03C8 -- Mega Metagross
+03C9 -- Mega Rayquaza
+03CA -- Mega Lopunny
+03CB -- Mega Gallade
+03CC -- Mega Audino
+03CD -- Primal Kyogre
+03CE -- Primal Groudon
+03CF -- Charizard (?)*
+03D0 -- Reshiram
+03D1 -- Zekrom
+03D2 -- Black Kyurem
+03D3 -- White Kyurem

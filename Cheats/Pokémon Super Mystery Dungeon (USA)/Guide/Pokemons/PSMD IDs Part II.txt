@@ -1,0 +1,127 @@
+Pokémon Super Mystery Dungeon IDs (Chikorita-Celebi)
+
+0C5	Chikorita
+0C6	Bayleef
+0C7	Meganium
+0C8	Cyndaquil
+0C9	Quilava
+0CA	Typhlosion
+0CB	Totodile
+0CC	Croconaw
+0CD	Feraligatr
+0CE	Sentret
+0CF	Furret
+0D0	Hoothoot
+0D1	Noctowl
+0D2	Ledyba
+0D3	Ledian
+0D4	Spinarak
+0D5	Ariados
+0D6	Chinchou
+0D7	Lanturn
+0D8	Togepi
+0D9	Togetic
+0DA	Togekiss
+0DB	Natu
+0DC	Xatu
+0DD	Mareep
+0DE	Flaaffy
+0DF	Ampharos
+0E0	Mega Ampharos
+0E1	Azurill
+0E2	Marill
+0E3	Azumarill
+0E4	Bonsly
+0E5	Sudowoodo
+0E6	Hoppip
+0E7	Skiploom
+0E8	Jumpluff
+0E9	Aipom
+0EA	Ambipom
+0EB	Sunkern
+0EC	Sunflora
+0ED	Yanma
+0EE	Yanmega
+0EF	Wooper
+0F0	Quagsire
+0F1	Murkrow
+0F2	Honchkrow
+0F3	Misdreavus
+0F4	Mismagius
+0F5	Unown A
+0F6	Unown B
+0F7	Unown C
+0F8	Unown D
+0F9	Unown E
+0FA	Unown F
+0FB	Unown G
+0FC	Unown H
+0FD	Unown I
+0FE	Unown J
+0FF	Unown K
+100	Unown L
+101	Unown M
+102	Unown N
+103	Unown O
+104	Unown P
+105	Unown Q
+106	Unown R
+107	Unown S
+108	Unown T
+109	Unown U
+10A	Unown V
+10B	Unown W
+10C	Unown X
+10D	Unown Y
+10E	Unown Z
+10F	Unown !
+110	Unown ?
+111	Wynaut
+112	Wobbuffet
+113	Girafarig
+114	Pineco
+115	Forretress
+116	Dunsparce
+117	Gligar
+118	Gliscor
+119	Snubbull
+11A	Granbull
+11B	Qwilfish
+11C	Shuckle	
+11D	Heracross
+11E	Mega Heracross
+11F	Sneasel
+120	Weavile
+121	Teddiursa
+122	Ursaring
+123	Slugma
+124	Magcargo
+125	Swinub
+126	Piloswine
+127	Mamoswine
+128	Corsola
+129	Remoraid
+12A	Octillery
+12B	Delibird
+12C	Mantyke
+12D	Mantine
+12E	Skarmory
+12F	Houndour
+130	Houndoom
+131	Mega Houndoom
+132	Phanpy
+133	Donphan
+134	Stantler
+135	Smeargle
+136	Miltank
+137	Raikou
+138	Entei
+139	Suicune
+13A	Larvitar
+13B	Pupitar
+13C	Tyranitar
+13D	Mega Tyranitar
+13E	Lugia
+13F	Ho-oh
+140	Celebi
+141	Shiny Celebi

@@ -200,4 +200,50 @@ D0000000 00000000
 00A1334C 000000FF
 00A13350 000000FF
 
+[Max team points]
+00A150D4 000FF0B4
+{Only use after you get official nexus map badge}
+
+[++Pokemon Edit++]
+
+[Change First Pokemon]
+10A1316C 00000000
+{Change last three 0 for the ID ,you need to look for them, of the pokemon then enter one dungeon or go up a floor
+
+[Change Second Pokemon]
+10A13274 00000142
+{same as above}
+
+[Edit 1st Pokemon's 1st move]
+0894C5E8 00000000
+{Make sure you replace the last 3 zeros with the id}
+
+[Edit 1st Pokemon's 2nd move]
+0894C5F4 00000000
+{Make sure you replace the last 3 zeros with the id}
+
+[Edit 1st Pokemon's 3rd move]
+0894C600 00000000
+{Make sure you replace the last 3 zeros with the id}
+
+[Edit 1st pokemons 4th move]
+0894C60C 00000000
+{Make sure you replace the last 3 zeros with the id}
+
+[Edit 2nd pokemons 1st move]
+0894C738 00000000
+{Make sure you replace the last 3 zeros with the id}
+
+[Edit 2nd Pokemon's 2nd move]
+0894C744 00000000
+{Make sure you replace the last 3 zeros with the id}
+
+[Edit 2nd Pokemon's 3rd move]
+0894C750 00000000
+{Make sure you replace the last 3 zeros with the id}
+
+[Edit 2nd Pokemon's 4th move]
+0894C75C 00000000
+{Make sure you replace the last 3 zeros with the id}
+
 [--]

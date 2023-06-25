@@ -1,0 +1,114 @@
+Pokémon Super Mystery Dungeon IDs (Turtwig-Arceus)
+
+1DF	Turtwig
+1E0	Grotle
+1E1	Torterra
+1E2	Chimchar
+1E3	Monferno
+1E4	Infernape
+1E5	Piplup
+1E6	Prinplup
+1E7	Empoleon
+1E8	Starly
+1E9	Staravia
+1EA	Staraptor
+1EB	Bidoof
+1EC	Bibarel
+1ED	Kricketot
+1EE	Kricketune
+1EF	Shinx
+1F0	Luxio
+1F1	Luxray
+1F2	Cranidos
+1F3	Rampardos
+1F4	Shieldon
+1F5	Bastiodon
+1F6	Burmy (Plant Cloak)
+1F7	Burmy (Sandy Cloak)
+1F8	Burmy (Trash Cloak)
+1F9	Wormadam (Plant Cloak)
+1FA	Wormadam (Sandy Cloak)
+1FB	Wormadam (Trash Cloak)
+1FC	Mothim
+1FD	Combee
+1FE	Vespiquen
+1FF	Pachirisu
+200	Buizel
+201	Floatzel
+202	Cherubi
+203	Cherrim (Normal Forme)
+204	Cherrim (Sunny Forme)
+205	Shellos	(East)
+206	Shellos (West)
+207	Gastrodon (East)
+208	Gastrodon (West)
+209	Drifloon
+20A	Drifblim
+20B	Buneary
+20C	Lopunny
+20D	Glameow
+20E	Purugly
+20F	Stunky
+210	Skuntank
+211	Bronzor
+212	Bronzong
+213	Chatot
+214	Spiritomb
+215	Gible
+216	Gabite
+217	Garchomp
+218	Mega Garchomp
+219	Riolu
+21A	Lucario
+21B	Mega Lucario
+21C	Hippopotas
+21D	Hippowdon
+21E	Skorupi
+21F	Drapion
+220	Croagunk
+221	Toxicroak
+222	Carnivine
+223	Finneon
+224	Lumineon
+225	Snover
+226	Abomasnow
+227	Mega Abomasnow
+228	Rotom
+229	Heat Rotom
+22A	Wash Rotom
+22B	Freeze Rotom
+22C	Fan Rotom
+22D	Mow Rotom
+22E	Uxie
+22F	Mesprit
+230	Azelf
+231	Dialga
+232	Palkia
+233	Heatran
+234	Regigigas
+235	Giratina (Altered Forme)
+236	Giratina (Origin Forme)
+237	Cresselia
+238	Phione
+239	Manaphy
+23A	Darkrai
+23B	Shaymin (Land Forme)
+23C	Shaymin (Sky Forme)
+23D	Arceus (Normal)
+23E	Arceus (Grass)
+23F	Arceus (Fire)
+240	Arceus (Water)
+241 	Arceus (Electric)
+242	Arceus (Ice)
+243	Arceus (Fighting)
+244	Arceus (Poison)
+245	Arceus (Ground)
+246	Arceus (Flying)
+247	Arceus (Psychic)
+248	Arceus (Bug)
+249	Arceus (Rock)
+24A	Arceus (Ghost)
+24B	Arceus (Dragon)
+24C	Arceus (Dark)
+24D	Arceus (Steel)
+24E	Arceus (Fairy)
