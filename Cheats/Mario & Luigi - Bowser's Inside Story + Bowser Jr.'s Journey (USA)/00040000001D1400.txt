@@ -1,4 +1,52 @@
+[Max Level On Battle End v1.2]
+00296F04 E3A0082E
+*Gives you 3M+ XP for each battle. This is enough to raise any character from 1 to 99. That would take forever, though.
+**Save after battle and restart the game. Otherwise, the next enemy you kill will also have the same XP yield and you'll have to wait forever for all the XP to be dispersed.
+***Using this on battles that aren't supposed to give XP will crash the game. My advice is to just use this for common enemies.
 
+[Max Money v1.2]
+003FA68C 000F423F
+
+[Infinite HP v1.2]
+0022EE94 E320F000
+
+[Infinite BP v1.2]
+0022EE54 E320F000
+
+[Using Items Doesn't Consume Them v1.2]
+002364D8 E320F000
+00481ABC E320F000
+
+[Toggle Insta-Kill v1.2] 
+DD000000 0000010C
+00231068 E3A01000
+D2000000 00000000
+DD000000 0000020C
+00231068 E6BF1070
+D2000000 00000000
+*Press R+Start+Sel to turn On, L+Start+Sel to turn Off.
+**If you don't use this with the Infinite HP code, you'll die in one hit, too.
+***If you use this on the Dark Star Battle, only use it after it's shield is down. Otherwise, you'll kill Dark Star and cause the game to hang.
+
+[Enemy Level Modifier v1.2]
+0028B6BC E3A010XX
+*XX = Level from 0-255 (0-FF) in Hexadecimal
+
+[All Items x90 (Press L+R) v1.2]
+DD000000 00000300
+D3000000 003FA690
+C0000000 0000001F
+20000000 0000005A
+DC000000 00000001
+D2000000 00000000
+
+[All Gear x90 (Press L+R) v1.2]
+DD000000 00000300
+D3000000 003FA6B0
+C0000000 000000DA
+20000000 0000005A
+DC000000 00000001
+D2000000 00000000
 
 [Max Money v1.1]
 0040665C 000F423F
