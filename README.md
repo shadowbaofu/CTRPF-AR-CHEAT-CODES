@@ -8,6 +8,12 @@ So I'm semi-officially assuming command of this repo. I dont plan to do much dif
 
 <b>[Here's the Sharkive for those wanting to contribute there, too](https://github.com/FlagBrew/Sharkive)</b>
 
+# Notice 2 - IMPORTANT!
+
+Due to Github's braindead requirement change FORCING 2FA (which actually introduces new vulnerabilities in many cases - contrary to their claims of increased code security) this repo may become effectively dead when they lock me out of my account over to my refusal to comply with their insanity. Compounded with their policy of deleting accounts with 2 years of inactivity, I strongly recommend those interested either fork the repo or download a copy before that time. For those willing, I urge you to also contact Github any way you can and speak up against this insanity. I have nothing against 2FA itself, but forcing it on everyone is not the way to do things. Personal security decisions should remain just that: PERSONAL decisions regarding OUR OWN account security.
+
+~ iShar
+
 ## How to use
 
 ### Using Luma3DS with Plugin Loader
